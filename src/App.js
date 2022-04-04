@@ -77,6 +77,7 @@ function App() {
                 <img src={val?.thumbnail?.lqip} alt={val?.thumbnail?.alt_text} />
                 <div className="overlay">
                   <div key={val.id} className="text">
+                  {!val?.thumbnail && <p style={{color:"#ffbf00"}}>Image Not provided</p>}
                     <p>ID: {val.id}</p>
                     <p style={{ whiteSpace: "break-spaces" }}>Title: {val.title}</p>
                     <p>Artist title: {val.artist_id}</p>

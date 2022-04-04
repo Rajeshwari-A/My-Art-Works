@@ -163,6 +163,7 @@ svg {
   font-style: italic;
   word-spacing: 0.1rem;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 25px;
 }
 
 .disbled {
